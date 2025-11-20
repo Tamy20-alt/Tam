@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9C27B0"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+
+
+    <TextView
+        android:id="@+id/flashcard_question"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/card_background"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:text="Quelle est la capitale d'Haiti?"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/flashcard_answer"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/secondcard_bacground"
+        android:gravity="center"
+        android:text="Port_au_Prince"
+        android:textSize="40sp"
+        android:visibility="invisible" />
+
+</RelativeLayout>
+
