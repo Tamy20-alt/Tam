@@ -11,4 +11,4 @@
 - [x] toggle the flashcard between the question side and the answer side
 - [x] Style the question and answer side of the card to better distinguish between the two sides
 
-      <img src="https://i.imgur.com/Ll5JBC2.gif" width="200" height="400" />  
+      <img src="https://github.com/Tamy20-alt/Tam/blob/main/video_lab1.mp4" width="200" height="400" />  
